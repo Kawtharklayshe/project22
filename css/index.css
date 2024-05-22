@@ -16,6 +16,7 @@ html {
 }
 body {
 	font-family: "Open Sans", sans-serif;
+	height: 2000px;
 }
 ul {
 	list-style: none;
@@ -266,3 +267,31 @@ header nav .form i {
 	border-color: var(--mainColor);
 }
 /*end landing*/
+.bg{
+	position: relative;
+	background-image:url(../images/subscribe.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	height: 400px;
+	margin-top: 150px;
+}
+.opacity{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.bg .bg-content{
+	color: white;
+	text-align: center;
+	margin-top: 150px;
+}
+.bg .bg-content h1{
+	font-size: 40px;
+	text-transform: capitalize;
+}
+.bg .bg-content p{
+	font-style: italic;
+}
